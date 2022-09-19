@@ -1,3 +1,6 @@
+body{
+font-family: arial, sans-serif;
+}
 footer{
     position: fixed;
     bottom: 0;
@@ -5,5 +8,32 @@ footer{
 }
 
 .weather-app{
-    border: solid 2px black;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+h1{
+font-size: 24px;
+font-weight: 100;
+line-height: 28px;
+margin-bottom: 0;
+color:rgb(135,135,135);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color:rgb(135,135,135);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
 }
