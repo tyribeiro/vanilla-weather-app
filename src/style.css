@@ -1,0 +1,9 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.weather-app{
+    border: solid 2px black;
+}
